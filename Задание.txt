@@ -1,0 +1,22 @@
+echo off
+md Kolesnychenko
+cd Kolesnychenko
+md Dima
+md Andreevych
+pause
+cd Dima
+echo > 14062001.txt
+cd..
+cd Andreevych
+echo > 5.txt
+pause
+cd ..
+cd ..
+del Kolesnychenko /S /Q /F
+pause
+cd Kolesnychenko
+rd Dima
+rd Andreevych
+cd .. 
+rd Kolesnychenko
+pause
